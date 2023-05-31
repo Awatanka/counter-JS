@@ -13,10 +13,18 @@ body {
 .container {
   background: rgb(255, 255, 255, 0.3);
   margin: auto;
-  height: 500px;
+  height: 600px;
   width: 80%;
   border: 3px solid pink;
   border-radius: 10px;
+}
+
+.button-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
 }
 
 h1 {
