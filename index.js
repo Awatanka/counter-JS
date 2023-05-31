@@ -17,3 +17,12 @@ function save() {
   let sumEl = document.getElementById("sum-el");
   sumEl.textContent = total;
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  const bgImage = new Image();
+  bgImage.src = "candy.jpg";
+
+  bgImage.onload = function () {
+    document.body.style.backgroundImage = `url("${bgImage.src}")`;
+  };
+});
