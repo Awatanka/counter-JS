@@ -1,6 +1,5 @@
 <html>
 
-
 <head>
     <link rel="stylesheet" href="index.css">
 </head>
@@ -9,21 +8,38 @@
     <div class="container">
         <h1>Anastasia, now you can calculate the number of candies you ate:</h1>
         <h2 id="count-el">0</h2>
-        <div class="button-holder"> <button id="increment-btn" onclick="increment()">ADD</button>
+        <div class="button-holder">
+            <button id="increment-btn" onclick="increment()">ADD</button>
             <button id="save-btn" onclick="save()">SAVE</button>
         </div>
+        <table id="days-table">
+            <tr>
+                <th>Day</th>
+                <td>Monday</td>
+                <td>Tuesday</td>
+                <td>Wednesday</td>
+                <td>Thursday</td>
+                <td>Friday</td>
+                <td>Saturday</td>
+                <td>Sunday</td>
+            </tr>
+            <tr>
+                <th>Candies</th>
+                <td id="monday-count">0</td>
+                <td id="tuesday-count">0</td>
+                <td id="wednesday-count">0</td>
+                <td id="thursday-count">0</td>
+                <td id="friday-count">0</td>
+                <td id="saturday-count">0</td>
+                <td id="sunday-count">0</td>
+            </tr>
+        </table>
 
-        <p id="save-el">Previous amount: </p>
-        <h3>You ate in total: </h3>
-        <p id="sum-el"> </p>
+        <h3>You have eaten a total of candies today:</h3>
+        <p id="sum-el"></p>
     </div>
 
-
-    <script src="index.js">
-
-    </script>
+    <script src="index.js"></script>
 </body>
-
-
 
 </html>
