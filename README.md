@@ -1,3 +1,4 @@
 # counter-JS
 
-<img width="1446" alt="Screenshot 2023-05-30 at 9 46 04 PM" src="https://github.com/Awatanka/counter-JS/assets/97055104/11991a33-92a8-424e-a04e-ee2a0375ef49">
+
+<img width="1185" alt="candy" src="https://github.com/Awatanka/counter-JS/assets/97055104/8b60c15f-bb92-47a3-b172-87d3bbb48116">
